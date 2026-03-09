@@ -1,6 +1,6 @@
 #!/bin/bash
 # Install all curated iOS AI skills from awesome-ios-ai
-# Usage: curl -fsSL https://raw.githubusercontent.com/techopolis-group/awesome-ios-ai/main/install.sh | bash
+# Usage: curl -fsSL https://raw.githubusercontent.com/Techopolis/awesome-ios-ai/main/install.sh | bash
 
 set -e
 

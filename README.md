@@ -6,7 +6,7 @@ Your AI coding tools write Swift like it is 2020. They use `ObservableObject` wh
 
 **Skills and agent teams fix that.** They give GitHub Copilot, Claude Code, Cursor, and Codex expert-level Swift and iOS knowledge on demand — so your AI writes modern, accessible, concurrent Swift the way it should be written.
 
-We started this list while building the Swift Agent Team and realized no central resource existed for any of this. The skills listed here help us every day. This is a community effort — contributions welcome.
+No central resource existed for any of this. Now it does. This is a community effort — contributions welcome.
 
 ## Contents
 
@@ -20,7 +20,7 @@ We started this list while building the Swift Agent Team and realized no central
   - [Design and Platform](#design-and-platform)
   - [Workflow and Automation](#workflow-and-automation)
   - [Accessibility](#accessibility)
-- [Agent Teams](#agent-teams)
+- [Agents](#agents)
 - [MCP Servers](#mcp-servers)
 - [Notable Authors](#notable-authors)
 - [Resources](#resources)
@@ -74,13 +74,13 @@ The `--all` flag installs every skill in the repo globally with no prompts.
 Install every skill from this list with a single command:
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/techopolis-group/awesome-ios-ai/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/Techopolis/awesome-ios-ai/main/install.sh | bash
 ```
 
 Or clone and run locally:
 
 ```bash
-git clone https://github.com/techopolis-group/awesome-ios-ai.git
+git clone https://github.com/Techopolis/awesome-ios-ai.git
 cd awesome-ios-ai
 ./install.sh
 ```
@@ -135,11 +135,11 @@ The SwiftUI Pro and SwiftUI Expert skills listed above also include accessibilit
 
 ---
 
-## Agent Teams
+## Agents
 
-Skills give agents knowledge. Agent teams take it further with coordinated specialists and an orchestrator that routes tasks to the right expert automatically. If you have built an agent team for iOS or Swift development, submit it.
+Agents go beyond skills with coordinated specialists and orchestration. If you have built an agent for iOS or Swift development, submit it.
 
-- [Swift Agent Team](https://github.com/techopolis-group/swift-agent-team) - 16 orchestrated specialists covering concurrency, SwiftUI, accessibility, security, testing, StoreKit, SwiftData, visionOS, Core ML, MLX, and Foundation Models. Works with Claude Code and VS Code Copilot.
+- [Swift Agents](https://github.com/Techopolis/swift-agents) - 16 orchestrated specialists covering concurrency, SwiftUI, accessibility, security, testing, StoreKit, SwiftData, visionOS, Core ML, MLX, and Foundation Models. Works with Claude Code and VS Code Copilot.
 
 ---
 
@@ -175,10 +175,10 @@ Contributions welcome. Please read [CONTRIBUTING.md](CONTRIBUTING.md) before sub
 
 **Skill authors:** Submit your iOS and Swift skills. See the contributing guide for requirements.
 
-**Agent team authors:** Built an agent team for Swift development? Add it to the Agent Teams section.
+**Agent authors:** Built an agent for Swift development? Add it to the Agents section.
 
 ---
 
 ## Footnotes
 
-Created by [Taylor Arndt](https://github.com/taylorarndt). Maintained by [Techopolis](https://github.com/techopolis-group).
+Created by [Taylor Arndt](https://github.com/taylorarndt). Maintained by [Techopolis](https://github.com/Techopolis).
