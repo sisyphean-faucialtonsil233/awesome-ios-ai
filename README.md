@@ -22,7 +22,6 @@ No central resource existed for any of this. Now it does. This is a community ef
   - [Accessibility](#accessibility)
 - [Agents](#agents)
 - [MCP Servers](#mcp-servers)
-- [Notable Authors](#notable-authors)
 - [Resources](#resources)
 
 ## What Are Skills
@@ -87,8 +86,6 @@ cd awesome-ios-ai
 
 This installs all skills from Antoine van der Lee, Thomas Ricouard, and Paul Hudson — the complete iOS AI skill stack.
 
----
-
 ## Skills
 
 ### SwiftUI
@@ -133,15 +130,11 @@ This installs all skills from Antoine van der Lee, Thomas Ricouard, and Paul Hud
 
 The SwiftUI Pro and SwiftUI Expert skills listed above also include accessibility coverage.
 
----
-
 ## Agents
 
 Agents go beyond skills with coordinated specialists and orchestration. If you have built an agent for iOS or Swift development, submit it.
 
 - [Swift Agents](https://github.com/Techopolis/swift-agents) - 16 orchestrated specialists covering concurrency, SwiftUI, accessibility, security, testing, StoreKit, SwiftData, visionOS, Core ML, MLX, and Foundation Models. Works with Claude Code and VS Code Copilot.
-
----
 
 ## MCP Servers
 
@@ -151,23 +144,11 @@ MCP (Model Context Protocol) servers give AI agents access to external tools and
 - [Sosumi MCP](https://github.com/kanaa257/sosumi.ai) - Access Apple developer documentation from AI agents.
 - [awesome-copilot MCP](https://github.com/github/awesome-copilot) - Search and install agents, skills, and instructions from GitHub.
 
----
-
-## Notable Authors
-
-- [Antoine van der Lee](https://github.com/AvdLee) - Author of SwiftLee. Maintains the top-installed Swift skills across SwiftUI, Concurrency, Testing, and Core Data.
-- [Thomas Ricouard](https://github.com/Dimillian) - Creator of IceCubes. His Skills repo is the most comprehensive iOS-specific skills collection with 10 skills.
-- [Paul Hudson](https://github.com/twostraws) - Creator of Hacking with Swift. His SwiftUI Pro skill brings comprehensive reference docs to AI agents.
-
----
-
 ## Resources
 
 - [skills.sh](https://skills.sh) - Searchable directory of all agent skills with install counts and security audits.
 - [Agent Skills Specification](https://agentskills.io/specification) - The open standard for building skills.
 - [VS Code Copilot Customization](https://code.visualstudio.com/docs/copilot/copilot-customization) - Official guide for workspace instructions, agents, prompts, hooks, and skills.
-
----
 
 ## Contributing
 
@@ -177,8 +158,3 @@ Contributions welcome. Please read [CONTRIBUTING.md](CONTRIBUTING.md) before sub
 
 **Agent authors:** Built an agent for Swift development? Add it to the Agents section.
 
----
-
-## Footnotes
-
-Created by [Taylor Arndt](https://github.com/taylorarndt). Maintained by [Techopolis](https://github.com/Techopolis).
