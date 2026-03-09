@@ -17,8 +17,8 @@ We started this list while building the Swift Agent Team and realized no central
   - [Swift Concurrency](#swift-concurrency)
   - [Testing](#testing)
   - [Debugging](#debugging)
-  - [Design & Platform](#design--platform)
-  - [Workflow & Automation](#workflow--automation)
+  - [Design and Platform](#design-and-platform)
+  - [Workflow and Automation](#workflow-and-automation)
   - [Accessibility](#accessibility)
 - [Agent Teams](#agent-teams)
 - [MCP Servers](#mcp-servers)
@@ -93,124 +93,45 @@ This installs all skills from Antoine van der Lee, Thomas Ricouard, and Paul Hud
 
 ### SwiftUI
 
-| Skill | Author | Description |
-|-------|--------|-------------|
-| [SwiftUI Expert](https://skills.sh/avdlee/swiftui-agent-skill/swiftui-expert-skill) | [Antoine van der Lee](https://github.com/AvdLee) | State management, view composition, performance, iOS 26+ Liquid Glass. The most installed Swift skill. |
-| [SwiftUI Pro](https://skills.sh/twostraws/swiftui-agent-skill/swiftui-pro) | [Paul Hudson](https://github.com/twostraws) | Comprehensive review covering modern APIs, accessibility, data flow, navigation, and performance. |
-| [SwiftUI Performance Audit](https://skills.sh/dimillian/skills/swiftui-performance-audit) | [Thomas Ricouard](https://github.com/Dimillian) | Diagnose slow rendering, janky scrolling, excessive view updates, and layout thrash. |
-| [SwiftUI View Refactor](https://skills.sh/dimillian/skills/swiftui-view-refactor) | [Thomas Ricouard](https://github.com/Dimillian) | Consistent view structure, MV patterns, @Observable usage, dependency injection. |
-| [SwiftUI UI Patterns](https://skills.sh/dimillian/skills/swiftui-ui-patterns) | [Thomas Ricouard](https://github.com/Dimillian) | Component references for TabView, NavigationStack, Sheets, and view composition. |
-| [SwiftUI Liquid Glass](https://skills.sh/dimillian/skills/swiftui-liquid-glass) | [Thomas Ricouard](https://github.com/Dimillian) | iOS 26+ Liquid Glass API — `glassEffect`, `GlassEffectContainer`, availability fallbacks. |
-
-<details>
-<summary><strong>Install all SwiftUI skills</strong></summary>
-
-```bash
-npx skills add avdlee/swiftui-agent-skill@swiftui-expert-skill -g -y
-npx skills add twostraws/swiftui-agent-skill@swiftui-pro -g -y
-npx skills add dimillian/skills@swiftui-performance-audit -g -y
-npx skills add dimillian/skills@swiftui-view-refactor -g -y
-npx skills add dimillian/skills@swiftui-ui-patterns -g -y
-npx skills add dimillian/skills@swiftui-liquid-glass -g -y
-```
-
-</details>
+- [SwiftUI Expert](https://skills.sh/avdlee/swiftui-agent-skill/swiftui-expert-skill) - State management, view composition, performance, iOS 26+ Liquid Glass. By Antoine van der Lee.
+- [SwiftUI Pro](https://skills.sh/twostraws/swiftui-agent-skill/swiftui-pro) - Modern APIs, accessibility, data flow, navigation, and performance. By Paul Hudson.
+- [SwiftUI Performance Audit](https://skills.sh/dimillian/skills/swiftui-performance-audit) - Diagnose slow rendering, janky scrolling, excessive view updates, and layout thrash. By Thomas Ricouard.
+- [SwiftUI View Refactor](https://skills.sh/dimillian/skills/swiftui-view-refactor) - Consistent view structure, MV patterns, @Observable usage, dependency injection. By Thomas Ricouard.
+- [SwiftUI UI Patterns](https://skills.sh/dimillian/skills/swiftui-ui-patterns) - Component references for TabView, NavigationStack, Sheets, and view composition. By Thomas Ricouard.
+- [SwiftUI Liquid Glass](https://skills.sh/dimillian/skills/swiftui-liquid-glass) - iOS 26+ Liquid Glass API with `glassEffect`, `GlassEffectContainer`, and availability fallbacks. By Thomas Ricouard.
 
 ### Swift Concurrency
 
-| Skill | Author | Description |
-|-------|--------|-------------|
-| [Swift Concurrency](https://skills.sh/avdlee/swift-concurrency-agent-skill/swift-concurrency) | [Antoine van der Lee](https://github.com/AvdLee) | async/await, actors, Sendable, strict concurrency. |
-| [Swift Concurrency Expert](https://skills.sh/dimillian/skills/swift-concurrency-expert) | [Thomas Ricouard](https://github.com/Dimillian) | Swift 6.2+ focused. Actor isolation, data-race safety, minimal-change fixes for compiler errors. |
-
-<details>
-<summary><strong>Install all Concurrency skills</strong></summary>
-
-```bash
-npx skills add avdlee/swift-concurrency-agent-skill@swift-concurrency -g -y
-npx skills add dimillian/skills@swift-concurrency-expert -g -y
-```
-
-</details>
+- [Swift Concurrency](https://skills.sh/avdlee/swift-concurrency-agent-skill/swift-concurrency) - async/await, actors, Sendable, and strict concurrency. By Antoine van der Lee.
+- [Swift Concurrency Expert](https://skills.sh/dimillian/skills/swift-concurrency-expert) - Swift 6.2+ focused. Actor isolation, data-race safety, minimal-change fixes for compiler errors. By Thomas Ricouard.
 
 ### Testing
 
-| Skill | Author | Description |
-|-------|--------|-------------|
-| [Swift Testing Expert](https://skills.sh/avdlee/swift-testing-agent-skill/swift-testing-expert) | [Antoine van der Lee](https://github.com/AvdLee) | Modern Swift Testing framework — `#expect`, `#require`, traits, tags, parameterized tests, XCTest migration. |
-
-<details>
-<summary><strong>Install</strong></summary>
-
-```bash
-npx skills add avdlee/swift-testing-agent-skill@swift-testing-expert -g -y
-```
-
-</details>
+- [Swift Testing Expert](https://skills.sh/avdlee/swift-testing-agent-skill/swift-testing-expert) - Modern Swift Testing framework with `#expect`, `#require`, traits, tags, parameterized tests, and XCTest migration. By Antoine van der Lee.
 
 ### Debugging
 
-| Skill | Author | Description |
-|-------|--------|-------------|
-| [iOS Debugger Agent](https://skills.sh/dimillian/skills/ios-debugger-agent) | [Thomas Ricouard](https://github.com/Dimillian) | Build, run, and debug iOS apps on simulators via XcodeBuildMCP. UI interaction, log capture, screenshots. |
+- [iOS Debugger Agent](https://skills.sh/dimillian/skills/ios-debugger-agent) - Build, run, and debug iOS apps on simulators via XcodeBuildMCP. By Thomas Ricouard.
 
-<details>
-<summary><strong>Install</strong></summary>
+### Design and Platform
 
-```bash
-npx skills add dimillian/skills@ios-debugger-agent -g -y
-```
+- [iOS HIG](https://skills.sh/johnrogers/claude-swift-engineering/ios-hig) - Apple Human Interface Guidelines compliance. By johnrogers.
+- [iOS 26 Platform](https://skills.sh/johnrogers/claude-swift-engineering/ios-26-platform) - iOS 26 platform APIs and patterns. By johnrogers.
+- [Mobile iOS Design](https://skills.sh/wshobson/agents/mobile-ios-design) - iOS design patterns and architecture. By wshobson.
 
-</details>
+### Workflow and Automation
 
-### Design & Platform
-
-| Skill | Author | Description |
-|-------|--------|-------------|
-| [iOS HIG](https://skills.sh/johnrogers/claude-swift-engineering/ios-hig) | johnrogers | Apple Human Interface Guidelines compliance. |
-| [iOS 26 Platform](https://skills.sh/johnrogers/claude-swift-engineering/ios-26-platform) | johnrogers | iOS 26 platform APIs and patterns. |
-| [Mobile iOS Design](https://skills.sh/wshobson/agents/mobile-ios-design) | wshobson | iOS design patterns and architecture. |
-
-<details>
-<summary><strong>Install all Design skills</strong></summary>
-
-```bash
-npx skills add johnrogers/claude-swift-engineering@ios-hig -g -y
-npx skills add johnrogers/claude-swift-engineering@ios-26-platform -g -y
-npx skills add wshobson/agents@mobile-ios-design -g -y
-```
-
-</details>
-
-### Workflow & Automation
-
-| Skill | Author | Description |
-|-------|--------|-------------|
-| [App Store Changelog](https://github.com/Dimillian/Skills/tree/main/app-store-changelog) | [Thomas Ricouard](https://github.com/Dimillian) | Generate App Store release notes from git history. |
-| [GH Issue Fix Flow](https://github.com/Dimillian/Skills/tree/main/github) | [Thomas Ricouard](https://github.com/Dimillian) | End-to-end GitHub issue resolution — read, fix, build, test, push. |
-| [macOS SwiftPM Packaging](https://github.com/Dimillian/Skills/tree/main/macos-spm-app-packaging) | [Thomas Ricouard](https://github.com/Dimillian) | Scaffold, build, and package SwiftPM macOS apps without Xcode. |
-| [Swift MCP Server Generator](https://skills.sh/github/awesome-copilot/swift-mcp-server-generator) | [GitHub](https://github.com/github/awesome-copilot) | Generate MCP servers in Swift. |
-
-<details>
-<summary><strong>Install all Workflow skills</strong></summary>
-
-```bash
-npx skills add dimillian/skills@app-store-changelog -g -y
-npx skills add dimillian/skills@github -g -y
-npx skills add dimillian/skills@macos-spm-app-packaging -g -y
-npx skills add github/awesome-copilot@swift-mcp-server-generator -g -y
-```
-
-</details>
+- [App Store Changelog](https://github.com/Dimillian/Skills/tree/main/app-store-changelog) - Generate App Store release notes from git history. By Thomas Ricouard.
+- [GH Issue Fix Flow](https://github.com/Dimillian/Skills/tree/main/github) - End-to-end GitHub issue resolution with read, fix, build, test, and push. By Thomas Ricouard.
+- [macOS SwiftPM Packaging](https://github.com/Dimillian/Skills/tree/main/macos-spm-app-packaging) - Scaffold, build, and package SwiftPM macOS apps without Xcode. By Thomas Ricouard.
+- [Swift MCP Server Generator](https://skills.sh/github/awesome-copilot/swift-mcp-server-generator) - Generate MCP servers in Swift. By GitHub.
 
 ### Accessibility
 
-| Skill | Author | Description |
-|-------|--------|-------------|
-| [iOS Accessibility](https://skills.sh/dpearson2699/swift-ios-skills/ios-accessibility) | dpearson2699 | iOS accessibility patterns and VoiceOver support. |
-| [Swift Accessibility](https://skills.sh/madebyecho/agent-skills/swift-accessibility) | madebyecho | Swift accessibility guidance. |
+- [iOS Accessibility](https://skills.sh/dpearson2699/swift-ios-skills/ios-accessibility) - iOS accessibility patterns and VoiceOver support. By dpearson2699.
+- [Swift Accessibility](https://skills.sh/madebyecho/agent-skills/swift-accessibility) - Swift accessibility guidance. By madebyecho.
 
-> **Note:** The SwiftUI Pro and SwiftUI Expert skills listed above also include accessibility coverage (Dynamic Type, VoiceOver labels, Reduce Motion, button traits).
+The SwiftUI Pro and SwiftUI Expert skills listed above also include accessibility coverage.
 
 ---
 
@@ -236,60 +157,9 @@ MCP (Model Context Protocol) servers give AI agents access to external tools and
 
 ## Notable Authors
 
-These developers maintain the most impactful iOS AI skills:
-
-### [Antoine van der Lee](https://github.com/AvdLee) ([@twannl](https://x.com/twannl))
-
-Author of [SwiftLee](https://www.avanderlee.com/) — one of the most widely-read Swift blogs. Maintains the top-installed Swift skills across SwiftUI, Concurrency, Testing, and Core Data. His skills are the gold standard for the ecosystem.
-
-- [SwiftUI Expert Skill](https://github.com/AvdLee/SwiftUI-Agent-Skill) — 2.1K stars
-- [Swift Concurrency Skill](https://github.com/AvdLee/Swift-Concurrency-Agent-Skill)
-- [Swift Testing Skill](https://github.com/AvdLee/Swift-Testing-Agent-Skill)
-- [Core Data Skill](https://github.com/AvdLee/Core-Data-Agent-Skill)
-
-<details>
-<summary><strong>Install all Antoine's skills</strong></summary>
-
-```bash
-npx skills add avdlee/swiftui-agent-skill --all
-npx skills add avdlee/swift-concurrency-agent-skill --all
-npx skills add avdlee/swift-testing-agent-skill --all
-```
-
-</details>
-
-### [Thomas Ricouard](https://github.com/Dimillian) ([@dimillian](https://x.com/dimillian))
-
-Creator of [IceCubes](https://github.com/Dimillian/IceCubeApp), one of the largest open-source SwiftUI apps. His [Skills repo](https://github.com/Dimillian/Skills) (2K stars) is the most comprehensive iOS-specific skills collection, covering performance, Liquid Glass, view patterns, concurrency, debugging, and workflow automation.
-
-- [Dimillian/Skills](https://github.com/Dimillian/Skills) — 10 skills, 2K stars
-- [Skills documentation site](https://dimillian.github.io/Skills/)
-
-<details>
-<summary><strong>Install all Thomas's skills (all 10 at once)</strong></summary>
-
-```bash
-npx skills add dimillian/skills --all
-```
-
-This single command installs: SwiftUI Performance Audit, SwiftUI Liquid Glass, SwiftUI View Refactor, SwiftUI UI Patterns, Swift Concurrency Expert, iOS Debugger Agent, App Store Changelog, GH Issue Fix Flow, macOS SwiftPM Packaging, and the GitHub CLI skill.
-
-</details>
-
-### [Paul Hudson](https://github.com/twostraws) ([@twostraws](https://x.com/twostraws))
-
-Creator of [Hacking with Swift](https://www.hackingwithswift.com/) — the most popular Swift learning resource. His SwiftUI Pro skill brings his teaching expertise to AI agents with comprehensive reference docs covering APIs, accessibility, data flow, design, navigation, and performance.
-
-- [SwiftUI Agent Skill](https://github.com/twostraws/swiftui-agent-skill)
-
-<details>
-<summary><strong>Install Paul's skills</strong></summary>
-
-```bash
-npx skills add twostraws/swiftui-agent-skill --all
-```
-
-</details>
+- [Antoine van der Lee](https://github.com/AvdLee) - Author of [SwiftLee](https://www.avanderlee.com/). Maintains the top-installed Swift skills across SwiftUI, Concurrency, Testing, and Core Data.
+- [Thomas Ricouard](https://github.com/Dimillian) - Creator of [IceCubes](https://github.com/Dimillian/IceCubeApp). His [Skills repo](https://github.com/Dimillian/Skills) is the most comprehensive iOS-specific skills collection with 10 skills.
+- [Paul Hudson](https://github.com/twostraws) - Creator of [Hacking with Swift](https://www.hackingwithswift.com/). His SwiftUI Pro skill brings comprehensive reference docs to AI agents.
 
 ---
 
