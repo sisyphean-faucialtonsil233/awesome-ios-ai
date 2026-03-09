@@ -51,7 +51,6 @@ AI coding tools write Swift like it is 2020. They use `ObservableObject` when `@
 
 - [iOS HIG](https://github.com/johnrogers/claude-swift-engineering/tree/main/plugins/swift-engineering/skills/ios-hig) - Apple Human Interface Guidelines compliance checks.
 - [iOS 26 Platform](https://github.com/johnrogers/claude-swift-engineering/tree/main/plugins/swift-engineering/skills/ios-26-platform) - Platform APIs and patterns for iOS 26.
-- [Mobile iOS Design](https://github.com/wshobson/agents) - iOS design patterns and architecture guidance.
 
 ### App Frameworks
 
@@ -68,7 +67,6 @@ AI coding tools write Swift like it is 2020. They use `ObservableObject` when `@
 ### Accessibility
 
 - [iOS Accessibility](https://github.com/dpearson2699/swift-ios-skills/tree/main/skills/ios-accessibility) - VoiceOver support, accessibility modifiers, and Dynamic Type patterns for iOS.
-- [Swift Accessibility](https://github.com/madebyecho/agent-skills) - Accessibility guidance and best practices for Swift apps.
 
 ### WebAssembly
 
@@ -77,14 +75,13 @@ AI coding tools write Swift like it is 2020. They use `ObservableObject` when `@
 ## Agents
 
 - [Swift Agents](https://github.com/Techopolis/swift-agents) - Sixteen orchestrated specialists covering concurrency, SwiftUI, accessibility, security, testing, StoreKit, SwiftData, visionOS, Core ML, MLX, and Foundation Models.
+- [Claude Swift Engineering](https://github.com/johnrogers/claude-swift-engineering) - Eleven agents for planning, implementing, reviewing, and testing Swift and TCA code.
 
 ## MCP Servers
 
 - [XcodeBuildMCP](https://github.com/getsentry/XcodeBuildMCP) - Build, run, test, and debug Xcode projects from AI agents.
 - [Apple Docs MCP](https://github.com/kimsungwhee/apple-docs-mcp) - Search Apple developer documentation, WWDC videos, and Swift API references from AI assistants.
-- [Apple Deep Doc MCP](https://github.com/Ahrentlov/appledeepdoc-mcp) - Access hidden Xcode documentation including Liquid Glass guides and Swift Evolution proposals.
 - [Xcode MCP Server](https://github.com/r-huijts/xcode-mcp-server) - Xcode project management, simulator control, and build automation for AI assistants.
-- [Sosumi MCP](https://github.com/kanaa257/sosumi.ai) - Apple developer documentation access with semantic search.
 - [awesome-copilot MCP](https://github.com/github/awesome-copilot) - Search and install agents, skills, and MCP servers from GitHub.
 - [MCP Swift SDK](https://github.com/modelcontextprotocol/swift-sdk) - Official Swift SDK for building MCP servers and clients.
 
