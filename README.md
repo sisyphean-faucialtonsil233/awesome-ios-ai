@@ -102,7 +102,7 @@ This installs all skills from Antoine van der Lee, Thomas Ricouard, and Paul Hud
 
 ### Swift Concurrency
 
-- [Swift Concurrency](https://skills.sh/avdlee/swift-concurrency-agent-skill/swift-concurrency) - async/await, actors, Sendable, and strict concurrency. By Antoine van der Lee.
+- [Swift Concurrency](https://skills.sh/avdlee/swift-concurrency-agent-skill/swift-concurrency) - Async/await, actors, Sendable, and strict concurrency. By Antoine van der Lee.
 - [Swift Concurrency Expert](https://skills.sh/dimillian/skills/swift-concurrency-expert) - Swift 6.2+ focused. Actor isolation, data-race safety, minimal-change fixes for compiler errors. By Thomas Ricouard.
 
 ### Testing
@@ -116,20 +116,20 @@ This installs all skills from Antoine van der Lee, Thomas Ricouard, and Paul Hud
 ### Design and Platform
 
 - [iOS HIG](https://skills.sh/johnrogers/claude-swift-engineering/ios-hig) - Apple Human Interface Guidelines compliance. By johnrogers.
-- [iOS 26 Platform](https://skills.sh/johnrogers/claude-swift-engineering/ios-26-platform) - iOS 26 platform APIs and patterns. By johnrogers.
+- [iOS 26 Platform](https://skills.sh/johnrogers/claude-swift-engineering/ios-26-platform) - Platform APIs and patterns for iOS 26. By johnrogers.
 - [Mobile iOS Design](https://skills.sh/wshobson/agents/mobile-ios-design) - iOS design patterns and architecture. By wshobson.
 
 ### Workflow and Automation
 
-- [App Store Changelog](https://github.com/Dimillian/Skills/tree/main/app-store-changelog) - Generate App Store release notes from git history. By Thomas Ricouard.
+- [App Store Changelog](https://github.com/Dimillian/Skills/tree/main/app-store-changelog) - Generate App Store release notes from Git history. By Thomas Ricouard.
 - [GH Issue Fix Flow](https://github.com/Dimillian/Skills/tree/main/github) - End-to-end GitHub issue resolution with read, fix, build, test, and push. By Thomas Ricouard.
 - [macOS SwiftPM Packaging](https://github.com/Dimillian/Skills/tree/main/macos-spm-app-packaging) - Scaffold, build, and package SwiftPM macOS apps without Xcode. By Thomas Ricouard.
 - [Swift MCP Server Generator](https://skills.sh/github/awesome-copilot/swift-mcp-server-generator) - Generate MCP servers in Swift. By GitHub.
 
 ### Accessibility
 
-- [iOS Accessibility](https://skills.sh/dpearson2699/swift-ios-skills/ios-accessibility) - iOS accessibility patterns and VoiceOver support. By dpearson2699.
-- [Swift Accessibility](https://skills.sh/madebyecho/agent-skills/swift-accessibility) - Swift accessibility guidance. By madebyecho.
+- [iOS Accessibility](https://skills.sh/dpearson2699/swift-ios-skills/ios-accessibility) - Accessibility patterns and VoiceOver support for iOS. By dpearson2699.
+- [Swift Accessibility](https://skills.sh/madebyecho/agent-skills/swift-accessibility) - Accessibility guidance for Swift apps. By madebyecho.
 
 The SwiftUI Pro and SwiftUI Expert skills listed above also include accessibility coverage.
 
@@ -139,7 +139,7 @@ The SwiftUI Pro and SwiftUI Expert skills listed above also include accessibilit
 
 Skills give agents knowledge. Agent teams take it further with coordinated specialists and an orchestrator that routes tasks to the right expert automatically. If you have built an agent team for iOS or Swift development, submit it.
 
-- **[Swift Agent Team](https://github.com/techopolis-group/swift-agent-team)** — 16 orchestrated specialists covering concurrency, SwiftUI, accessibility, security, testing, StoreKit, SwiftData, visionOS, Core ML, MLX, Foundation Models, and more. A swift-lead routes every task to the right experts. Works with Claude Code and VS Code Copilot. Uses companion skills from this list as its knowledge base.
+- [Swift Agent Team](https://github.com/techopolis-group/swift-agent-team) - 16 orchestrated specialists covering concurrency, SwiftUI, accessibility, security, testing, StoreKit, SwiftData, visionOS, Core ML, MLX, and Foundation Models. Works with Claude Code and VS Code Copilot.
 
 ---
 
@@ -147,32 +147,25 @@ Skills give agents knowledge. Agent teams take it further with coordinated speci
 
 MCP (Model Context Protocol) servers give AI agents access to external tools and data sources.
 
-| Server | Description |
-|--------|-------------|
-| [XcodeBuildMCP](https://github.com/nicklama/xcode-build-mcp) | Build, run, and test Xcode projects from AI agents. Required by the iOS Debugger Agent skill. |
-| [Sosumi MCP](https://github.com/kanaa257/sosumi.ai) | Access Apple developer documentation from AI agents. |
-| [awesome-copilot MCP](https://github.com/github/awesome-copilot) | Search and install agents, skills, and instructions from GitHub's curated collection. |
+- [XcodeBuildMCP](https://github.com/nicklama/xcode-build-mcp) - Build, run, and test Xcode projects from AI agents.
+- [Sosumi MCP](https://github.com/kanaa257/sosumi.ai) - Access Apple developer documentation from AI agents.
+- [awesome-copilot MCP](https://github.com/github/awesome-copilot) - Search and install agents, skills, and instructions from GitHub.
 
 ---
 
 ## Notable Authors
 
-- [Antoine van der Lee](https://github.com/AvdLee) - Author of [SwiftLee](https://www.avanderlee.com/). Maintains the top-installed Swift skills across SwiftUI, Concurrency, Testing, and Core Data.
-- [Thomas Ricouard](https://github.com/Dimillian) - Creator of [IceCubes](https://github.com/Dimillian/IceCubeApp). His [Skills repo](https://github.com/Dimillian/Skills) is the most comprehensive iOS-specific skills collection with 10 skills.
-- [Paul Hudson](https://github.com/twostraws) - Creator of [Hacking with Swift](https://www.hackingwithswift.com/). His SwiftUI Pro skill brings comprehensive reference docs to AI agents.
+- [Antoine van der Lee](https://github.com/AvdLee) - Author of SwiftLee. Maintains the top-installed Swift skills across SwiftUI, Concurrency, Testing, and Core Data.
+- [Thomas Ricouard](https://github.com/Dimillian) - Creator of IceCubes. His Skills repo is the most comprehensive iOS-specific skills collection with 10 skills.
+- [Paul Hudson](https://github.com/twostraws) - Creator of Hacking with Swift. His SwiftUI Pro skill brings comprehensive reference docs to AI agents.
 
 ---
 
 ## Resources
 
-### Directories & Registries
-
-- [skills.sh](https://skills.sh) — Searchable directory of all agent skills with install counts and security audits.
-- [Agent Skills Specification](https://agentskills.io/specification) — The open standard for building skills.
-
-### Guides
-
-- [VS Code Copilot Customization](https://code.visualstudio.com/docs/copilot/copilot-customization) — Official guide for workspace instructions, agents, prompts, hooks, and skills.
+- [skills.sh](https://skills.sh) - Searchable directory of all agent skills with install counts and security audits.
+- [Agent Skills Specification](https://agentskills.io/specification) - The open standard for building skills.
+- [VS Code Copilot Customization](https://code.visualstudio.com/docs/copilot/copilot-customization) - Official guide for workspace instructions, agents, prompts, hooks, and skills.
 
 ---
 
